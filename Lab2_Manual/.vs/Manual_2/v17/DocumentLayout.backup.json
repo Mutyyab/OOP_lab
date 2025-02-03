@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\New folder\\Manual_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0C9C93-0FCA-413F-B039-8157406C4399}|Manual_2.csproj|e:\\new folder\\manual_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0C9C93-0FCA-413F-B039-8157406C4399}|Manual_2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0C9C93-0FCA-413F-B039-8157406C4399}|Manual_2.csproj|e:\\new folder\\manual_2\\challenge1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0C9C93-0FCA-413F-B039-8157406C4399}|Manual_2.csproj|solutionrelative:challenge1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0C9C93-0FCA-413F-B039-8157406C4399}|Manual_2.csproj|e:\\new folder\\manual_2\\challenge2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0C9C93-0FCA-413F-B039-8157406C4399}|Manual_2.csproj|solutionrelative:challenge2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0C9C93-0FCA-413F-B039-8157406C4399}|Manual_2.csproj|e:\\new folder\\manual_2\\challenge3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0C9C93-0FCA-413F-B039-8157406C4399}|Manual_2.csproj|solutionrelative:challenge3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "challenge3.cs",
+              "DocumentMoniker": "E:\\New folder\\Manual_2\\challenge3.cs",
+              "RelativeDocumentMoniker": "challenge3.cs",
+              "ToolTip": "E:\\New folder\\Manual_2\\challenge3.cs",
+              "RelativeToolTip": "challenge3.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T09:13:31.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "challenge2.cs",
+              "DocumentMoniker": "E:\\New folder\\Manual_2\\challenge2.cs",
+              "RelativeDocumentMoniker": "challenge2.cs",
+              "ToolTip": "E:\\New folder\\Manual_2\\challenge2.cs",
+              "RelativeToolTip": "challenge2.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T08:54:00.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "challenge1.cs",
+              "DocumentMoniker": "E:\\New folder\\Manual_2\\challenge1.cs",
+              "RelativeDocumentMoniker": "challenge1.cs",
+              "ToolTip": "E:\\New folder\\Manual_2\\challenge1.cs",
+              "RelativeToolTip": "challenge1.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T08:51:51.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\New folder\\Manual_2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\New folder\\Manual_2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T08:39:07.59Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

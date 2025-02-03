@@ -1,0 +1,14 @@
+E:\New folder\Manual_2\bin\Debug\net9.0\Manual_2.exe
+E:\New folder\Manual_2\bin\Debug\net9.0\Manual_2.deps.json
+E:\New folder\Manual_2\bin\Debug\net9.0\Manual_2.runtimeconfig.json
+E:\New folder\Manual_2\bin\Debug\net9.0\Manual_2.dll
+E:\New folder\Manual_2\bin\Debug\net9.0\Manual_2.pdb
+E:\New folder\Manual_2\obj\Debug\net9.0\Manual_2.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder\Manual_2\obj\Debug\net9.0\Manual_2.AssemblyInfoInputs.cache
+E:\New folder\Manual_2\obj\Debug\net9.0\Manual_2.AssemblyInfo.cs
+E:\New folder\Manual_2\obj\Debug\net9.0\Manual_2.csproj.CoreCompileInputs.cache
+E:\New folder\Manual_2\obj\Debug\net9.0\Manual_2.dll
+E:\New folder\Manual_2\obj\Debug\net9.0\refint\Manual_2.dll
+E:\New folder\Manual_2\obj\Debug\net9.0\Manual_2.pdb
+E:\New folder\Manual_2\obj\Debug\net9.0\Manual_2.genruntimeconfig.cache
+E:\New folder\Manual_2\obj\Debug\net9.0\ref\Manual_2.dll
