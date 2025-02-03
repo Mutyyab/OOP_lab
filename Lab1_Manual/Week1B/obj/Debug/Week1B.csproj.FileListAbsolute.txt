@@ -1,0 +1,7 @@
+E:\Mutyyab\C# files\PD1\Week1B\bin\Debug\Week1B.exe.config
+E:\Mutyyab\C# files\PD1\Week1B\bin\Debug\Week1B.exe
+E:\Mutyyab\C# files\PD1\Week1B\bin\Debug\Week1B.pdb
+E:\Mutyyab\C# files\PD1\Week1B\obj\Debug\Week1B.csproj.AssemblyReference.cache
+E:\Mutyyab\C# files\PD1\Week1B\obj\Debug\Week1B.csproj.CoreCompileInputs.cache
+E:\Mutyyab\C# files\PD1\Week1B\obj\Debug\Week1B.exe
+E:\Mutyyab\C# files\PD1\Week1B\obj\Debug\Week1B.pdb
