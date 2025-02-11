@@ -1,0 +1,7 @@
+E:\Mutyyab\C# files\OOP tasks\Lab4_Manual\BookStore\obj\Debug\BookStore.csproj.AssemblyReference.cache
+E:\Mutyyab\C# files\OOP tasks\Lab4_Manual\BookStore\obj\Debug\BookStore.csproj.CoreCompileInputs.cache
+E:\Mutyyab\C# files\OOP tasks\Lab4_Manual\BookStore\bin\Debug\BookStore.exe.config
+E:\Mutyyab\C# files\OOP tasks\Lab4_Manual\BookStore\bin\Debug\BookStore.exe
+E:\Mutyyab\C# files\OOP tasks\Lab4_Manual\BookStore\bin\Debug\BookStore.pdb
+E:\Mutyyab\C# files\OOP tasks\Lab4_Manual\BookStore\obj\Debug\BookStore.exe
+E:\Mutyyab\C# files\OOP tasks\Lab4_Manual\BookStore\obj\Debug\BookStore.pdb
