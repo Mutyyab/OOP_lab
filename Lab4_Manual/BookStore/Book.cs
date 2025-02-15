@@ -65,6 +65,40 @@ namespace BookStore
             }
         }
 
+        public bool SearchBook(string title)
+        {
+            bool isFound = false;
+            int index = 0;
+            for (int i = 0; i < books.Count; i++)
+            {
+                if (!(books[i].Title == title))
+                {
+                    isFound = true;
+                    index = i;
+                    break;
+                }
+            }
+
+            return isFound;
+        }
+
+        public int ReturnBook(string title)
+        {
+            int index = 0;
+            for (int i = 0; i < books.Count; i++)
+            {
+                if (books[i].Title == title)
+                {
+                    index = i;
+                    break;
+                }
+            }
+
+            return index;
+        }
+
+
+
         public void SearchBookByISBN(int isbn)
         {
             bool isFound = false;

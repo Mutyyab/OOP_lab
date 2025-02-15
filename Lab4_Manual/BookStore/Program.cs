@@ -10,18 +10,28 @@ namespace BookStore
     {
         public static void Main(string[] args)
         {
-            Book book;
+            Book book = new Book();
+            Member member = new Member();
+            bool isValid;
+            bool isFound;
+            bool isFound1;
             string title;
             string publisher;
             string author1;
             string author2;
             string author3;
             string author4;
+            string memberName;
+            string memberID;
+            int memberShip_Fee = 0;
             int isbn;
+            int Quantity = 0;
             int price;
+            int index = 0;
+            int index_member = 0;
             int stock;
             int option = Menu();
-            while(option != 6)
+            while(option != 12)
             {
                 switch(option)
                 {
@@ -53,7 +63,6 @@ namespace BookStore
                         Console.WriteLine("Enter the Book Title");
                         title = Console.ReadLine();
 
-                        book = new Book();
                         book.SearchBookByTitle(title);
                         break;
                     case 3:
@@ -67,12 +76,94 @@ namespace BookStore
                         Console.WriteLine("Enter the Book ISBN Whose Stock you want to update");
                         isbn = Convert.ToInt32(Console.ReadLine());
 
-                        book = new Book();
                         book.UpdateStock(isbn);
                         break;
                     case 5:
-                        book = new Book();
                         book.ViewAll();
+                        break;
+                    case 6:
+                        Console.WriteLine("Enter your Name: ");
+                        memberName = Console.ReadLine();
+                        do
+                        {
+                            Console.WriteLine("Enter your personel member ID (If you want to become a member otherwise enter 0): ");
+                            memberID = Console.ReadLine();
+                            isValid = member.isValid(memberID);
+                        }
+                        while (isValid);
+                        memberShip_Fee += 10;
+
+                        member = new Member(memberID,memberName);
+                        Member.AddMember(member);
+                        break;
+                    case 7:
+                        Console.WriteLine("Enter your Name: ");
+                        memberName = Console.ReadLine();
+
+                        member.searchMemberByName(memberName); 
+                        break;
+                    case 8:
+                        Console.WriteLine("Enter your personel member ID: ");
+                        memberID = Console.ReadLine();
+
+                        member.searchMemberByID(memberID);
+                        break;
+                    case 9:
+                        Console.WriteLine("Enter your Name: ");
+                        memberName = Console.ReadLine();
+
+                        member.updateMemberByName(memberName);
+                        break;
+                    case 10:
+                        do
+                        {
+                            Console.WriteLine("Enter your Name: ");
+                            memberName = Console.ReadLine();
+                            Console.WriteLine("Enter your personel member ID (Enter 0 if you are not a member): ");
+                            memberID = Console.ReadLine();
+                            isFound1 = member.isFound(memberName, memberID);
+                            if (isFound1)
+                            {
+                                Console.WriteLine("Member Not Found");
+                                Console.WriteLine();
+                            }
+                        }
+                        while (isFound1);
+                        if(isFound1 == false)
+                        {
+                            index_member = member.ReturnMember(memberName,memberID);
+                        }
+                        do
+                        {
+                            Console.WriteLine("Enter the Book You want to Purchase: ");
+                            title = Console.ReadLine();
+                            isFound = book.SearchBook(title);
+                        }
+                        while (isFound);
+                        if (isFound == false)
+                        {
+                            index = book.ReturnBook(title);
+                        }
+                        if (!(isFound))
+                        {
+                            Console.WriteLine("Enter the quantity of book");
+                            Quantity = Convert.ToInt32(Console.ReadLine());
+                            Book.books[index].Stock -= Quantity;
+                        }
+                        if (memberID != "0")
+                        {
+                            Member.members[index_member].No_of_Books_Bought = Quantity;
+                            Member.members[index_member].Money_Spent = Quantity * (Book.books[index].Price - ((Book.books[index].Price * 5) / 100));
+                            Console.WriteLine($"Total Price is: {Quantity * (Book.books[index].Price - ((Book.books[index].Price * 5) / 100))}");
+                        }
+                        else if (memberID == "0")
+                        {
+                            Console.WriteLine($"Total Price is: {Book.books[index].Price * Quantity}");
+                        }
+                            break;
+                    case 11:
+                        Console.WriteLine($"Total Numbers of members are: {Member.members.Count}");
+                        Console.WriteLine($"Total Membership fee Collected is {memberShip_Fee}");
                         break;
                     default:
                         Console.WriteLine("Invalid Input");
@@ -86,28 +177,22 @@ namespace BookStore
         public static int Menu()
         {
             Console.Clear();
-            Console.WriteLine("1) ADD A BOOK");
-            Console.WriteLine("2) Search Book By Title");
-            Console.WriteLine("3) Search Book by ISBN");
-            Console.WriteLine("4) Edit a Book Stock");
-            Console.WriteLine("5) View All Books");
-            Console.WriteLine("6) Exit");
+            Console.WriteLine("1)       ADD A BOOK");
+            Console.WriteLine("2)       Search Book By Title");
+            Console.WriteLine("3)       Search Book by ISBN");
+            Console.WriteLine("4)       Edit a Book Stock");
+            Console.WriteLine("5)       View All Books");
+            Console.WriteLine("6)       Add Member");
+            Console.WriteLine("7)       Search member by Name");
+            Console.WriteLine("8)       Search member by ID");
+            Console.WriteLine("9)       Update Member Info");
+            Console.WriteLine("10)      Purchase Book");
+            Console.WriteLine("11)      Stats");
+            Console.WriteLine("12)      Exit");
             int options = Convert.ToInt32(Console.ReadLine());
 
             return options;
         }
 
-
-        //public static void ViewAll(List<Book> books)
-        //{
-        //    for (int i = 0; i < books.Count; i++)
-        //    {
-        //        Console.WriteLine();
-        //        Console.WriteLine($"Title: {books[i].Title}");
-        //        Console.WriteLine($"Publisher: {books[i].Publisher}");
-        //        Console.WriteLine($"ISBN: {books[i].ISBN}");
-        //        Console.WriteLine($"Price: {books[i].Price}");
-        //    }
-        //}
     }
 }
