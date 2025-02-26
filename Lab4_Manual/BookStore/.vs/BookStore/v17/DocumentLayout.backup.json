@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{2EB19B80-B933-4588-9D3A-750A43A37705}|BookStore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EB19B80-B933-4588-9D3A-750A43A37705}|BookStore.csproj|e:\\mutyyab\\c# files\\oop tasks\\lab4_manual\\bookstore\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2EB19B80-B933-4588-9D3A-750A43A37705}|BookStore.csproj|E:\\Mutyyab\\C# files\\OOP tasks\\Lab4_Manual\\BookStore\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2EB19B80-B933-4588-9D3A-750A43A37705}|BookStore.csproj|solutionrelative:member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -32,10 +32,9 @@
               "RelativeDocumentMoniker": "Book.cs",
               "ToolTip": "E:\\Mutyyab\\C# files\\OOP tasks\\Lab4_Manual\\BookStore\\Book.cs",
               "RelativeToolTip": "Book.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAkwF4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T14:19:57.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T14:19:57.164Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "Member.cs",
               "ToolTip": "E:\\Mutyyab\\C# files\\OOP tasks\\Lab4_Manual\\BookStore\\Member.cs",
               "RelativeToolTip": "Member.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-15T10:42:45.509Z",
               "EditorCaption": ""
@@ -58,7 +57,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\Mutyyab\\C# files\\OOP tasks\\Lab4_Manual\\BookStore\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAkwJYAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAQwJcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T14:19:04.444Z",
               "EditorCaption": ""

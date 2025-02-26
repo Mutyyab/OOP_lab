@@ -18,7 +18,7 @@ namespace BookStore
         public int Price;
         public int Stock;
         public static List<Book> books = new List<Book>();
-        public Book(string title, string author1, string author2, string author3, string author4, string publisher, int isbn, int price, int stock) 
+        public Book(string title, string publisher, int isbn, int price, int stock, string author1 = null , string author2 = null, string author3 = null, string author4 = null) 
         {
             Title=title;
             Author1=author1;

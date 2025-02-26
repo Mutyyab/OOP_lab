@@ -1,0 +1,7 @@
+E:\Mutyyab\C# files\OOP tasks\Lab5_Manual\SelfAssesment\bin\Debug\SelfAssesment.exe.config
+E:\Mutyyab\C# files\OOP tasks\Lab5_Manual\SelfAssesment\bin\Debug\SelfAssesment.exe
+E:\Mutyyab\C# files\OOP tasks\Lab5_Manual\SelfAssesment\bin\Debug\SelfAssesment.pdb
+E:\Mutyyab\C# files\OOP tasks\Lab5_Manual\SelfAssesment\obj\Debug\SelfAssesment.csproj.AssemblyReference.cache
+E:\Mutyyab\C# files\OOP tasks\Lab5_Manual\SelfAssesment\obj\Debug\SelfAssesment.csproj.CoreCompileInputs.cache
+E:\Mutyyab\C# files\OOP tasks\Lab5_Manual\SelfAssesment\obj\Debug\SelfAssesment.exe
+E:\Mutyyab\C# files\OOP tasks\Lab5_Manual\SelfAssesment\obj\Debug\SelfAssesment.pdb

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\New folder\\Manual_2\\Manual_2.csproj",
+      "projectUniqueName": "E:\\Mutyyab\\C# files\\OOP tasks\\Lab2_Manual\\Manual_2.csproj",
       "projectName": "Manual_2",
-      "projectPath": "E:\\New folder\\Manual_2\\Manual_2.csproj",
+      "projectPath": "E:\\Mutyyab\\C# files\\OOP tasks\\Lab2_Manual\\Manual_2.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "E:\\New folder\\Manual_2\\obj\\",
+      "outputPath": "E:\\Mutyyab\\C# files\\OOP tasks\\Lab2_Manual\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

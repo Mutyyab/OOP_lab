@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -157,6 +158,18 @@ namespace BookStore
             }
 
             return index;
+        }
+
+        public static void viewAllMembers()
+        {
+            for (int i = 0; i < members.Count; ++i)
+            {
+                Console.WriteLine($"Member Name: {members[i].Member_Name}");
+                Console.WriteLine($"Member ID: {members[i].Member_ID}");
+                Console.WriteLine($"Books Bought: {members[i].No_of_Books_Bought}");
+                Console.WriteLine($"Money Spent: {members[i].Money_Spent}");
+                Console.WriteLine();
+            }
         }
     }
 }

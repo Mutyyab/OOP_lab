@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\New folder\\Lab3_Manual\\Lab2_Manual.csproj": {}
+    "E:\\Mutyyab\\C# files\\OOP tasks\\Lab3_Manual\\Lab2_Manual.csproj": {}
   },
   "projects": {
-    "E:\\New folder\\Lab3_Manual\\Lab2_Manual.csproj": {
+    "E:\\Mutyyab\\C# files\\OOP tasks\\Lab3_Manual\\Lab2_Manual.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\New folder\\Lab3_Manual\\Lab2_Manual.csproj",
+        "projectUniqueName": "E:\\Mutyyab\\C# files\\OOP tasks\\Lab3_Manual\\Lab2_Manual.csproj",
         "projectName": "Lab2_Manual",
-        "projectPath": "E:\\New folder\\Lab3_Manual\\Lab2_Manual.csproj",
+        "projectPath": "E:\\Mutyyab\\C# files\\OOP tasks\\Lab3_Manual\\Lab2_Manual.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "E:\\New folder\\Lab3_Manual\\obj\\",
+        "outputPath": "E:\\Mutyyab\\C# files\\OOP tasks\\Lab3_Manual\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

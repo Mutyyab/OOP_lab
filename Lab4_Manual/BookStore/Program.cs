@@ -25,27 +25,20 @@ namespace BookStore
             string memberID;
             int memberShip_Fee = 0;
             int isbn;
+            int numberOfAuthors;
             int Quantity = 0;
             int price;
             int index = 0;
             int index_member = 0;
             int stock;
             int option = Menu();
-            while(option != 12)
+            while(option != 13)
             {
                 switch(option)
                 {
                     case 1:
                         Console.WriteLine("Enter Book Title:");
                         title = Console.ReadLine();
-                        Console.WriteLine("Enter author 1");
-                        author1 = Console.ReadLine();
-                        Console.WriteLine("Enter author 2");
-                        author2 = Console.ReadLine();
-                        Console.WriteLine("Enter author 3");
-                        author3 = Console.ReadLine();
-                        Console.WriteLine("Enter author 4");
-                        author4 = Console.ReadLine();
                         Console.WriteLine("Enter the Publisher Name:");
                         publisher = Console.ReadLine();
                         Console.WriteLine("Enter ISBN:");
@@ -54,10 +47,52 @@ namespace BookStore
                         price = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("Enter Stock of Book");
                         stock = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Enter Number Of Authors:");
+                        numberOfAuthors = Convert.ToInt32(Console.ReadLine());
+                        if (numberOfAuthors == 1)
+                        {
+                            Console.WriteLine("Enter author 1");
+                            author1 = Console.ReadLine();
 
+                            book = new Book(title, publisher, isbn, price, stock, author1);
+                            Book.AddBook(book);
+                        }
+                        else if (numberOfAuthors == 2)
+                        {
+                            Console.WriteLine("Enter author 1");
+                            author1 = Console.ReadLine();
+                            Console.WriteLine("Enter author 2");
+                            author2 = Console.ReadLine();
 
-                        book = new Book(title, author1, author2, author3, author4, publisher, isbn, price, stock);
-                        Book.AddBook(book);
+                            book = new Book(title, publisher, isbn, price, stock, author1, author2);
+                            Book.AddBook(book);
+                        }
+                        else if (numberOfAuthors == 3)
+                        {
+                            Console.WriteLine("Enter author 1");
+                            author1 = Console.ReadLine();
+                            Console.WriteLine("Enter author 2");
+                            author2 = Console.ReadLine();
+                            Console.WriteLine("Enter author 3");
+                            author3 = Console.ReadLine();
+
+                            book = new Book(title, publisher, isbn, price, stock, author1, author2, author3);
+                            Book.AddBook(book);
+                        }
+                        else if (numberOfAuthors == 4)
+                        {
+                            Console.WriteLine("Enter author 1");
+                            author1 = Console.ReadLine();
+                            Console.WriteLine("Enter author 2");
+                            author2 = Console.ReadLine();
+                            Console.WriteLine("Enter author 3");
+                            author3 = Console.ReadLine();
+                            Console.WriteLine("Enter author 4");
+                            author4 = Console.ReadLine();
+
+                            book = new Book(title, publisher, isbn, price, stock, author1, author2, author3, author4);
+                            Book.AddBook(book);
+                        }
                         break;
                     case 2:
                         Console.WriteLine("Enter the Book Title");
@@ -67,7 +102,7 @@ namespace BookStore
                         break;
                     case 3:
                         Console.WriteLine("Enter the Book ISBN");
-                        isbn = Convert.ToInt32(Console.ReadLine());
+                        isbn = int.Parse(Console.ReadLine());
 
                         book = new Book();
                         book.SearchBookByISBN(isbn);
@@ -115,6 +150,9 @@ namespace BookStore
                         member.updateMemberByName(memberName);
                         break;
                     case 10:
+                        Member.viewAllMembers();
+                        break;
+                    case 11:
                         do
                         {
                             Console.WriteLine("Enter your Name: ");
@@ -161,7 +199,7 @@ namespace BookStore
                             Console.WriteLine($"Total Price is: {Book.books[index].Price * Quantity}");
                         }
                             break;
-                    case 11:
+                    case 12:
                         Console.WriteLine($"Total Numbers of members are: {Member.members.Count}");
                         Console.WriteLine($"Total Membership fee Collected is {memberShip_Fee}");
                         break;
@@ -186,9 +224,10 @@ namespace BookStore
             Console.WriteLine("7)       Search member by Name");
             Console.WriteLine("8)       Search member by ID");
             Console.WriteLine("9)       Update Member Info");
-            Console.WriteLine("10)      Purchase Book");
-            Console.WriteLine("11)      Stats");
-            Console.WriteLine("12)      Exit");
+            Console.WriteLine("10)      View All Members");
+            Console.WriteLine("11)      Purchase Book");
+            Console.WriteLine("12)      Stats");
+            Console.WriteLine("13)      Exit");
             int options = Convert.ToInt32(Console.ReadLine());
 
             return options;
